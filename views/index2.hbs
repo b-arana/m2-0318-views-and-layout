@@ -1,0 +1,12 @@
+<h1>Ironhacker {{name}} from bootcamp {{{bootcamp}}} Be Like</h1>
+<img id="homer" src="{{homer}}" width=200/>
+
+{{#each miticIronhackers}}
+    {{> mitic}}
+{{/each}}
+
+
+{{#with boton}}
+    {{> botonpartial}}
+{{/with}}
+{{!-- <a href="/">GOTO PAGE HOME</a> --}}

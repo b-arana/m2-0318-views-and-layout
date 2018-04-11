@@ -1,0 +1,16 @@
+{
+  "name": "m2-0318-views-and-layout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "hbs": "^4.0.1",
+    "nodemon": "^1.17.3"
+  }
+}

@@ -1,0 +1,20 @@
+<h1>Ironhacker {{name}} from bootcamp {{{bootcamp}}} Be Like</h1>
+{{#if bootcamp}}
+    <h2>This won't be displayed!!</h2>
+{{/if}}
+
+{{#each miticIronhackers}}
+    {{> mitic}}
+{{/each}}
+
+
+<h1>{{address.street}}</h1>
+{{#with address}}
+    <p>{{street}}, {{number}}</p>
+{{/with}}
+
+{{#with boton}}
+    {{> botonpartial}}
+{{/with}}
+
+{{!-- <a href="/page2">GOTO PAGE 2</a> --}}

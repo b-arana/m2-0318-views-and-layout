@@ -1,0 +1,26 @@
+body{
+    background:yellow;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.meetic{
+    border: 1px solid red;
+    padding: 20px;
+    margin: 5px;
+    display:inline-block;
+}
+
+.boton{
+    border: 1px solid black;
+    color:white;
+    padding: 5px 15px;
+    /* &.verde{
+        background:green;
+    }
+    &.rosa{
+        background:pink;
+    } */
+}
